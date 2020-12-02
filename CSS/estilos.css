@@ -1,0 +1,114 @@
+hr{
+    padding:10px;
+}
+
+.container img
+{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.container iframe{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.fotos h2{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+#galeria .linea{
+    background: rgb(74, 177, 236)000;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.fotos ul{
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fotos li{
+    margin: 10px;
+}
+.fotos ul img{
+    width: 200px;
+    height: 200px;
+}
+.fotos h2{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.grabaciones h2{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+#galeria .linea{
+    background: rgb(74, 177, 236)000;
+    height: 1px;
+    width: 100%;
+    display: block;
+    padding:10px;
+}
+.ft:hover{
+    transform: scale(1.2);
+    filter: blur(0px);
+    opacity: 0.85;
+    transition-duration: 1s;  
+    
+}
+
+.grabaciones ul video{
+    width: 300px;
+    height: 170px;
+}
+.grabaciones ul{
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grabaciones li{
+    margin: 5px;
+}
+
+#copyRight{
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+    padding: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    border:  10px outset;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 990px){
+    .container iframe{
+      position: static;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+    }
+}
